@@ -1,0 +1,5 @@
+---
+# tasks file for test_role
+- name: Say hallo from custom test_role
+  ansible.builtin.debug: 
+    msg: "This is hello world from custom test_role"
